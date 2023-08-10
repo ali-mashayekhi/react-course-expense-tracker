@@ -24,17 +24,6 @@
   text-align: right;
 }
 
-.new-expense__actions button {
-  font: inherit;
-  cursor: pointer;
-  padding: 1rem 2rem;
-  border: 1px solid #40005d;
-  background-color: #40005d;
-  color: #fff;
-  border-radius: 12px;
-  margin-right: 1rem;
-}
-
 .new-expense__actions button:hover,
 .new-expense__actions button:active {
   background-color: #510674;

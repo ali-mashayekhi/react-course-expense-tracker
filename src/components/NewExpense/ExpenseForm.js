@@ -94,7 +94,16 @@ function ExpenseForm(props) {
         </div>
       </div>
       <div className="new-expense__actions">
-        <button type="submit">Add Expense</button>
+        <button
+          className="btn"
+          type="button"
+          onClick={props.onFormDisplayHandler}
+        >
+          Cancel
+        </button>
+        <button className="btn" type="submit">
+          Add Expense
+        </button>
       </div>
     </form>
   );
